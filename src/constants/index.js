@@ -198,16 +198,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Perisferia-Store",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Aplicacion E-commerce para un comercio insumos tecnologicos. Dando el acceso a ventas en todo el pais y mejorando la administracion y gestion del stack y la atencion al cliente",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "PostgreSQL",
         color: "green-text-gradient",
       },
       {
@@ -219,37 +219,16 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "App CRUD-contacts",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Aplicacion web de lista de contactos para organizacion ONG, para administrar y gestionar su lista de clientes y hacer un seguimiento de los mismos.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "react-router-dom",
         color: "green-text-gradient",
       },
       {
@@ -257,7 +236,49 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    image: jobit,
+    source_code_link: "https://regal-dasik-53165d.netlify.app/",
+  },
+  {
+    name: "App-Countries",
+    description:
+      "Aplicacion full stack de tipo content-management. Con informacion de mas de 120 paises, dando la posibilidad a los usuarios de crear y midificar actividades turisticas en cada pais",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "postgreSQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css-module",
+        color: "pink-text-gradient",
+      },
+    ],
     image: tripguide,
+    source_code_link: "https://github.com/gablon29/Pi-Countrys",
+  },
+  {
+    name: "Perisferia-Store",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
     source_code_link: "https://github.com/",
   },
 ];
